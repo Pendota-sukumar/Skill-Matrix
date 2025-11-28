@@ -59,3 +59,22 @@ export interface DataSource {
   lastSync: string;
   config: Record<string, string>;
 }
+
+// Enterprise Module Types
+export type ModuleId = 
+  | 'workforce' 
+  | 'core-hr' 
+  | 'talent' 
+  | 'learning' 
+  | 'recruiting' 
+  | 'time' 
+  | 'payroll' 
+  | 'service';
+
+export interface EnterpriseModule {
+    id: ModuleId;
+    name: string;
+    description: string;
+    icon: any; // React Component
+    color: string;
+}

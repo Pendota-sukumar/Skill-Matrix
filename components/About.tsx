@@ -17,8 +17,11 @@ export const About: React.FC = () => {
             </div>
          </div>
          
-         <h1 className="text-3xl font-bold text-slate-900 mb-3">SkillMatrix AI <span className="text-indigo-600">v1.0</span></h1>
-         <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
+         <h1 className="text-3xl font-bold text-slate-900 mb-3">Vaibhora <span className="text-indigo-600">v1.0</span></h1>
+         <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed font-medium">
+            Skill. Insight. Evolution.
+         </p>
+         <p className="text-sm text-slate-400 max-w-xl mx-auto mt-2">
             The next-generation workforce intelligence platform. We replace static spreadsheets with a dynamic, AI-powered system that ensures the right operator is on the right machine, every shift.
          </p>
       </div>
@@ -68,7 +71,7 @@ export const About: React.FC = () => {
 
       <div className="text-center pt-4 pb-8">
          <p className="text-sm text-slate-400 font-medium">
-            © 2025 SkillMatrix AI — Workforce Intelligence Platform. All rights reserved.
+            © 2025 Vaibhora — Workforce Intelligence Platform. All rights reserved.
          </p>
       </div>
 
